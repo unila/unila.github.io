@@ -1,2 +1,2 @@
 # unila.github.io
-Open science hub website for Universitas Lampung (Unila)
+Open Science Hub Website For Universitas Lampung (Unila)
