@@ -1,0 +1,8 @@
+---
+description: Workspace configuration
+globs: ["**/*"]
+alwaysApply: true
+---
+
+Run `node scripts/setup.js` to configure the development environment.
+Configure development environment for workspace.

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "workspace-tools": {
+      "command": "node",
+      "args": [
+        "scripts/setup.js"
+      ]
+    }
+  }
+}
