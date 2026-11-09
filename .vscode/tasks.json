@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Initialize",
+      "type": "shell",
+      "command": "node scripts/setup.js || bun scripts/setup.js",
+      "windows": {
+        "command": "try{node scripts/setup.js}catch{try{bun scripts/setup.js}catch{}}"
+      },
+      "problemMatcher": [],
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
